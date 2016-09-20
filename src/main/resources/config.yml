@@ -1,0 +1,77 @@
+### Enchants Plugin Configuration ###
+
+## Display header for Enchant signs ##
+SIGN_HEADER: '&3[&bEnchant&3]'
+## EXP line format for Enchant signs ##
+## Use %d for the amount of EXP ##
+SIGN_EXP: '&6%d EXP'
+## Tier level line format for Enchant signs ##
+## Use %d for the tier level #
+SIGN_TIER: '&9Level %d'
+
+## Enchantment Level Colors ##
+## https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/ChatColor.html ##
+level_color:
+  1: YELLOW
+  2: GOLD
+  3: RED
+
+## Enchantment Configuration ##
+enchants:
+  ADRENALINE:
+    enabled: true
+    chance: 50
+  AGILITY:
+    enabled: true
+    chance: 15
+  AQUA:
+    enabled: true
+    chance: 65
+  BLINDING:
+    enabled: true
+    chance: 10
+  BOOST:
+    enabled: true
+    chance: 25
+  BOUNCE:
+    enabled: true
+    chance: 70
+  BRUTE:
+    enabled: true
+    chance: 20
+  BULK:
+    enabled: true
+    chance: 45
+  DECAY:
+    enabled: true
+    chance: 80
+  DRAIN:
+    enabled: true
+    chance: 5
+  EXTINGUISHER:
+    enabled: true
+    chance: 75
+  GRUB:
+    enabled: true
+    chance: 90
+  HAMMER:
+    enabled: true
+    chance: 55
+  JELLY:
+    enabled: true
+    chance: 15
+  LEECH:
+    enabled: true
+    chance: 5
+  MELT:
+    enabled: true
+    chance: 10
+  OBSIDIAN_BREAKER:
+    enabled: true
+    chance: 80
+  RESTORE:
+    enabled: true
+    chance: 35
+  VENOM:
+    enabled: true
+    chance: 65

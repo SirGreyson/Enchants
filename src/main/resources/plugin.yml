@@ -1,0 +1,11 @@
+main: co.reasondev.enchant.Enchants
+name: ${project.artifactId}
+version: ${project.version}
+
+description: Custom-Enchantment Plugin for Spigot
+author: SirReason
+depend: [Vault]
+
+commands:
+  enchantment:
+    description: Add Enchantment to Book
